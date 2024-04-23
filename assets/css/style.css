@@ -165,7 +165,7 @@ header {
 
 
 /* SECCION CATEGORIA */
-.seccion-categoria {
+.seccion-categoria--bg-rojo-oscuro {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -173,6 +173,61 @@ header {
   height: 6rem;
   border-radius: 0.5rem;
   margin-bottom: 1.5rem;
+  background-color: #E93E30;
+}
+.seccion-categoria--bg-amarillo-dorado{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 22.5rem;
+  height: 6rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #F7E018;
+}
+
+.seccion-categoria--bg-azul-claro{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 22.5rem;
+  height: 6rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #299ED5 ;
+}
+
+.seccion-categoria--bg-gris-oscuro{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 22.5rem;
+  height: 6rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #292C33;
+}
+
+.seccion-categoria--bg-verde-claro{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 22.5rem;
+  height: 6rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #67C770;
+}
+
+.seccion-categoria--bg-morado-oscuro{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 22.5rem;
+  height: 6rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #563D7C;
 }
 
 .seccion-categoria__image {
@@ -193,32 +248,6 @@ header {
   font-weight: 400;
   margin: 5rem 0;
 }
-
-/* background de los contenedores categorias */
-.bg-rojo-oscuro{
-    background-color: #E93E30;
-}
-
-.bg-amarillo-dorado{
-    background-color: #F7E018;
-}
-
-.bg-azul-claro{
-    background-color: #299ED5 ;
-}
-
-.bg-gris-oscuro{
-    background-color: #292C33;
-}
-
-.bg-verde-claro{
-    background-color: #67C770;
-}
-
-.bg-morado-oscuro{
-    background-color: #563D7C;
-}
-/* fin background de los contenedores categorias */
 
 /* Estilos del pie de página */
 footer{
