@@ -291,6 +291,19 @@ h1 {
   width: clamp(500px, 40%, 700px);
   padding: 1rem;
   border: 1px solid rgba(0, 0, 19, 0.3019607843);
+  border-radius: 1rem;
+}
+
+.form-register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: clamp(500px, 40%, 700px);
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 19, 0.3019607843);
+  margin-bottom: 3rem;
+  border-radius: 1rem;
 }
 
 .input-container {

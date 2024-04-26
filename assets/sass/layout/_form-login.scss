@@ -40,6 +40,19 @@ h1 {
   width: clamp(500px, 40%, 700px);
   padding: 1rem;
   border: 1px solid #0000134d;
+  border-radius: 1rem;
+}
+
+.form-register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: clamp(500px, 40%, 700px);
+  padding: 1rem;
+  border: 1px solid #0000134d;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
 }
 
 .input-container {
