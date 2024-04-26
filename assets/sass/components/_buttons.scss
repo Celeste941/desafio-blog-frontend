@@ -36,6 +36,7 @@
 
 .buttons-container__button--login {
   background-color: green;
+  color: white;
 }
 
 .buttons-container__button--google-login {
@@ -45,3 +46,14 @@
   gap: 1rem;
   background-color: white;
 }
+
+
+//BOTONES SECCION SUSCRIPCION
+
+.formulario__button{
+  margin-left: 7rem;
+  width: 10rem;
+  padding: 0.4rem;
+  border-radius: 5px;
+  font-weight: bold;
+  }

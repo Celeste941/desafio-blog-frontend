@@ -15,6 +15,14 @@
   margin-top: 4rem;
 }
 
+.main-register {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -72,6 +80,7 @@ body {
 
 .buttons-container__button--login {
   background-color: green;
+  color: white;
 }
 
 .buttons-container__button--google-login {
@@ -80,6 +89,14 @@ body {
   justify-content: center;
   gap: 1rem;
   background-color: white;
+}
+
+.formulario__button {
+  margin-left: 7rem;
+  width: 10rem;
+  padding: 0.4rem;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 .seccion-cards-1 {
@@ -213,6 +230,7 @@ footer {
 
 .footerLogo {
   display: flex;
+  align-items: center;
   margin-right: 21rem;
 }
 
@@ -308,6 +326,39 @@ h1 {
 .checkbox-container__checkbox-input {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.formulario__input {
+  padding: 0.4rem;
+  border-radius: 5px;
+  width: 19rem;
+}
+
+.subscripcion {
+  padding: 3rem;
+}
+
+.componentes-subscripcion {
+  background-color: rgb(97, 149, 19);
+  padding: 2rem;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.componentes-subscripcion__1erparrafo {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.componentes-subscripcion__2doparrafo {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: -10px;
 }
 
 header {
