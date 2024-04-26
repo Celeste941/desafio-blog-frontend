@@ -19,6 +19,11 @@
   border-radius: 1.25rem;
 }
 
+.container-Card-principal__images--hoover-efecto:hover{
+  transform: scale(1.1); /* Aumenta el tamaño de la imagen en un 10% al pasar el cursor */
+  cursor: pointer;
+}
+
 .sub-container-card-principal {
   display: flex;
   align-items: center;
