@@ -1,21 +1,19 @@
 // Importación de archivos base
-@import 'base/main-home';
+@import "base/main-home";
 
-@import 'base/reset';
-@import 'base/typography';
+@import "base/reset";
+@import "base/typography";
 
 // Importación de archivos de componentes
-@import 'components/buttons';
-@import 'components/cards';
-
+@import "components/buttons";
+@import "components/cards";
 
 // Importación de archivos de layout
-@import 'layout/footer';
-@import 'layout/form-login';
-@import 'layout/form-register';
-@import 'layout/form-suscription';
-@import 'layout/header';
-@import 'layout/seccion-categoria';
-@import 'layout/seccion-noticia';
+@import "layout/footer";
+@import "layout/form-login";
+@import "layout/form-register";
+@import "layout/form-suscription";
+@import "layout/header";
+@import "layout/seccion-categoria";
+@import "layout/seccion-noticia";
 // Importación de archivos de páginas
-
