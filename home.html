@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <!-- Encabezado de la pagína -->
+    <!-- HEADER-->
     <header class="header">
       <img
         src="./assets/images/logos/adl.png"
@@ -17,106 +17,114 @@
         class="header__logo" />
       <h2 class="header__title">Blog FrontEnd</h2>
     </header>
+    <!-- FIN HEADER -->
 
     <hr />
 
-    <!-- SECCION NOVEDADES -->
+    
+    <!-- MAIN -->
     <main class="main-home">
-      <!-- Título de la sección de novedades -->
+      <!-- TÍTULO SECCION NOVEDADES -->
       <h2 class="main__title">Novedades</h2>
-      <section class="seccion-cards-1">
-        <!-- CARD 1 "HAY UNA CARD GRANDE"-->
-        <div class="containerCard1">
+
+      <!-- SECCION COMPLETA DE NOVEDADES -->
+      <section class="seccion-cards-principal">
+
+        <!-- CARD "PRINCIPAL-GRANDE"-->
+        <div class="container-Card-principal">
           <a href="noticia.html"
             ><img
               src="./assets/images/posts/bootstrap.png"
               alt="images-boostrap"
-              class="containerCard1__images"
+              class="container-Card-principal__images"
           /></a>
-          <p class="containerCard1__date">24 de Noviembre, 2022</p>
-          <h3 class="containerCard1__title">
+          <p class="container-Card-principal__date">24 de Noviembre, 2022</p>
+          <h3 class="container-Card-principal__title">
             Modifica el tema de Boostrap con variables CSS
           </h3>
-          <div class="sub-containerCard1">
+          <div class="sub-container-card-principal">
             <img
               src="./assets/images/logos/adl.png"
               alt="logo-de-desafíos-latam"
-              class="sub-containerCard1__logo" />
-            <span href="#" class="sub-containerCard1__text">Desafío Latam</span>
+              class="sub-container-card-principal__logo" />
+            <span href="#" class="sub-container-card-principal__text">Desafío Latam</span>
           </div>
         </div>
-        <!-- FIN CARD 1  -->
+        <!-- FIN CARD 1 "PRINCIPAL-GRANDE" -->
 
-        <!-- CARD 2 "HAY 3 CARDS EN 1 COLUMNA" -->
-        <div class="containerCards2">
-          <div class="cards2">
+        <!-- CARD PEQUELAS "HAY 3 CARDS EN 1 COLUMNA - NOVEDADES" -->
+        <div class="container-cards-secondary">
+
+          <div class="cards-small-novedades">
             <img
               src="./assets/images/posts/Herencia-JS.png"
               alt="imagen-logo-js"
-              class="cards2__image" />
-            <div class="container-card2">
-              <p class="container-card2__date">24 de Noviembre, 2022</p>
-              <h3 class="container-card2__title">Herencia en javascript</h3>
-              <div class="sub-containerCard2">
+              class="cards-small-novedades__image" />
+            <div class="sub-container-card-small">
+              <p class="sub-container-card-small__date">24 de Noviembre, 2022</p>
+              <h3 class="sub-container-card-small__title">Herencia en javascript</h3>
+
+              <div class="sub-container-card-small-logo">
                 <img
                   src="./assets/images/logos/adl.png"
                   alt="logo-de-desafíos-latam"
-                  class="sub-containerCard2__logo" />
-                <span href="#" class="sub-containerCard2__text"
+                  class="sub-container-card-small-logo__logo" />
+                <span href="#" class="sub-container-card-small-logo__text"
                   >Desafío Latam</span
                 >
               </div>
             </div>
           </div>
 
-          <div class="cards2">
+          <div class="cards-small-novedades">
             <img
               src="./assets/images/posts/Etiquetas-semánticas-HTML.png"
               alt="imagen-etiquetas-semanticas"
-              class="cards2__image" />
-            <div class="container-card2">
-              <p class="container-card2__date">24 de Noviembre, 2022</p>
-              <h3 class="container-card2__title">Etiquetas semánticas</h3>
-              <div class="sub-containerCard2">
+              class="cards-small-novedades__image" />
+            <div class="sub-container-card-small">
+              <p class="sub-container-card-small__date">24 de Noviembre, 2022</p>
+              <h3 class="sub-container-card-small__title">Etiquetas semánticas</h3>
+              <div class="sub-container-card-small-logo">
                 <img
                   src="./assets/images/logos/adl.png"
                   alt="logo-de-desafíos-latam"
-                  class="sub-containerCard2__logo" />
-                <span href="#" class="sub-containerCard2__text"
+                  class="sub-container-card-small-logo__logo" />
+                <span href="#" class="sub-container-card-small-logo__text"
                   >Desafío Latam</span
                 >
               </div>
             </div>
           </div>
 
-          <div class="cards2">
+          <div class="cards-small-novedades">
             <img
               src="./assets/images/posts/reactComponents.png"
               alt="imagen-logo-react"
-              class="cards2__image" />
-            <div class="container-card2">
-              <p class="container-card2__date">24 de Noviembre, 2022</p>
-              <h3 class="container-card2__title">Componentes React</h3>
-              <div class="sub-containerCard2">
+              class="cards-small-novedades__image" />
+            <div class="sub-container-card-small">
+              <p class="sub-container-card-small__date">24 de Noviembre, 2022</p>
+              <h3 class="sub-container-card-small__title">Componentes React</h3>
+              <div class="sub-container-card-small-logo">
                 <img
                   src="./assets/images/logos/adl.png"
                   alt="logo-de-desafíos-latam"
-                  class="sub-containerCard2__logo" />
-                <span href="#" class="sub-containerCard2__text"
+                  class="sub-container-card-small-logo__logo" />
+                <span href="#" class="sub-container-card-small-logo__text"
                   >Desafío Latam</span
                 >
               </div>
             </div>
           </div>
-          <!-- FIN CARD 2 -->
+          <!-- FIN CARD PEQUELAS "HAY 3 CARDS EN 1 COLUMNA - NOVEDADES" -->
         </div>
       </section>
+      <!-- FIN SECCION COMPLETA DE NOVEDADES -->
     </main>
-    <!-- FIN SECCION 1 "NOVEDADES" -->
+    <!-- FIN DEL MAIN -->
 
     <hr />
 
-    <!-- SECCION POPULARES Y NOVEDADES -->
+    <!-- SECCION POPULARES Y CATEGORIAS -->
     <section class="seccion-card-2">
       <!-- SECCION POPULARES -->
       <div class="seccion-2">
@@ -263,25 +271,24 @@
       </div>
       <!-- FIN SECCION CATEGORIA -->
     </section>
+    <!-- FIN SECCION POPULARES Y CATEGORIAS -->
 
-    <!-- inicio de componentes de suscriptcion -->
-    <section class="subscripcion">
-      <div class="componentes-subscripcion">
-        <p class="componentes-subscripcion__1erparrafo">
-          Mantente actualizado sobre el
-        </p>
-        <p class="componentes-subscripcion__2doparrafo">Desarollo Front End</p>
+    <!-- COMPONENTE DE SUSCRIPCIÓN -->
+    <section class="suscripcion">
+      <div class="suscripcion-componente">
+        <p class="suscripcion-componente__primera-descripcion">Mantente actualizado sobre el</p>
+        <p class="suscripcion-componente__segunda-descripcion">Desarollo Front End </p>
         <form action="./register.html" class="formulario">
           <input type="text" class="formulario__input" />
           <button class="formulario__button">Suscríbete</button>
         </form>
       </div>
     </section>
-    <!-- termino de seccion de suscriptcion -->
+    <!-- FIN COMPONENTE DE SUSCRIPCIÓN-->
+ 
+    <hr/>
 
-    <hr />
-
-    <!-- INICIO DE FOOTER -->
+    <!-- INICIO DEL FOOTER -->
     <footer class="footer">
       <div class="footerLogo">
         <img
@@ -296,5 +303,6 @@
         <a href="#" class="footerLink__link">Desafío Latam - 2023</a>
       </div>
     </footer>
+    <!-- FIN DEL FOOTER -->
   </body>
 </html>

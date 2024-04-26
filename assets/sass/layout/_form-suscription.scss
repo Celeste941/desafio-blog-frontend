@@ -2,25 +2,26 @@
   padding: 0.4rem;
   border-radius: 5px;
   width: 19rem;
+  border: none;
 }
 
-.subscripcion {
+.suscripcion {
   padding: 3rem;
 }
-.componentes-subscripcion {
+.suscripcion-componente {
   background-color: rgb(97, 149, 19);
   padding: 2rem;
   width: 50%;
   margin: 0 auto;
   border-radius: 5px;
 }
-.componentes-subscripcion__1erparrafo {
+.suscripcion-componente__primera-descripcion {
   color: #ffff;
   font-size: 1.1rem;
   font-weight: bold;
   margin-top: -10px;
 }
-.componentes-subscripcion__2doparrafo {
+.suscripcion-componente__segunda-descripcion {
   color: #ffff;
   font-size: 1.1rem;
   font-weight: bold;

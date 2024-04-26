@@ -1,4 +1,4 @@
-//botones en la seccion del login y registro
+//BOTON - LOGIN Y REGISTER
 
 .buttons-container__register-text {
   text-align: center;
@@ -53,7 +53,15 @@
 .formulario__button {
   margin-left: 7rem;
   width: 10rem;
-  padding: 0.4rem;
+  padding: 0.8rem 1rem;
   border-radius: 5px;
   font-weight: bold;
+  border: none;
+  background-color: rgb(156, 155, 155);
+  font-weight: 800;
 }
+
+.formulario__button:hover{
+  transform: scale(1.05);
+}
+

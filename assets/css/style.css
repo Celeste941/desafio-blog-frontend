@@ -88,89 +88,96 @@ body {
 .formulario__button {
   margin-left: 7rem;
   width: 10rem;
-  padding: 0.4rem;
+  padding: 0.8rem 1rem;
   border-radius: 5px;
   font-weight: bold;
+  border: none;
+  background-color: rgb(156, 155, 155);
+  font-weight: 800;
 }
 
-.seccion-cards-1 {
+.formulario__button:hover {
+  transform: scale(1.05);
+}
+
+.seccion-cards-principal {
   display: flex;
   justify-content: center;
 }
 
-/* Estilos de las tarjetas de novedades */
-.containerCard1 {
+/* ESTILOS DE CARD PRINCIPAL NOVEDADES*/
+.container-Card-principal {
   margin-right: 4rem;
 }
 
-.containerCard1__title {
+.container-Card-principal__title {
   font-size: 1.5rem;
   font-weight: 700;
 }
 
-.containerCard1__images {
+.container-Card-principal__images {
   width: 37.6rem;
   height: 19.6rem;
   border-radius: 1.25rem;
 }
 
-.sub-containerCard1 {
+.sub-container-card-principal {
   display: flex;
   align-items: center;
 }
 
-.sub-containerCard1__logo {
+.sub-container-card-principal__logo {
   width: 2rem;
   height: 2rem;
   border-radius: 0.5rem;
   margin-right: 1rem;
 }
 
-.sub-containerCard1__text {
+.sub-container-card-principal__text {
   font-size: 1.6rem;
   font-weight: 500;
 }
 
-/* Estilos de las tarjetas de la segunda sección --container 2--- */
-.cards2 {
+/* ESTILOS DE CARDS SMALL - SECCION NOVEDADES */
+.cards-small-novedades {
   display: flex;
   margin-bottom: 1.5rem;
 }
 
-.cards2__image {
+.cards-small-novedades__image {
   width: 12.8rem;
   height: 10rem;
   border-radius: 1.25rem;
   margin-right: 20px;
 }
 
-.container-card2 {
+.sub-container-card-small {
   line-height: 15px;
 }
 
-.container-card2__title {
+.sub-container-card-small__title {
   font-size: 1.25rem;
   width: 55%;
   line-height: 25px;
 }
 
-.sub-containerCard2 {
+.sub-container-card-small-logo {
   display: flex;
   align-items: center;
 }
 
-.sub-containerCard2__logo {
+.sub-container-card-small-logo__logo {
   width: 2rem;
   height: 2rem;
   border-radius: 2rem;
   margin-right: 1rem;
 }
 
-.sub-containerCard2__text {
+.sub-container-card-small-logo__text {
   font-weight: 500;
 }
 
-/* seccion de card parte 2 populares*/
+/* ESTILO SECCION CARD POPULARES Y CATEGORIA*/
 .seccion-2 {
   padding-right: 3.5rem;
   padding-left: 3.5rem;
@@ -247,7 +254,6 @@ footer {
 .footerLink__link {
   text-decoration: none;
   color: #000000;
-  font-size: 1.4rem;
 }
 
 h1 {
@@ -342,13 +348,14 @@ h1 {
   padding: 0.4rem;
   border-radius: 5px;
   width: 19rem;
+  border: none;
 }
 
-.subscripcion {
+.suscripcion {
   padding: 3rem;
 }
 
-.componentes-subscripcion {
+.suscripcion-componente {
   background-color: rgb(97, 149, 19);
   padding: 2rem;
   width: 50%;
@@ -356,14 +363,14 @@ h1 {
   border-radius: 5px;
 }
 
-.componentes-subscripcion__1erparrafo {
+.suscripcion-componente__primera-descripcion {
   color: white;
   font-size: 1.1rem;
   font-weight: bold;
   margin-top: -10px;
 }
 
-.componentes-subscripcion__2doparrafo {
+.suscripcion-componente__segunda-descripcion {
   color: white;
   font-size: 1.1rem;
   font-weight: bold;
